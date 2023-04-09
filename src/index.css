@@ -1,0 +1,133 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  font-size: 62.5%;
+}
+.dndnode{
+  outline: 1px solid #0cd9f0;
+}
+table {
+  margin-left: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1rem hidden #443C68;
+  border-collapse: collapse;
+  box-shadow: 0 0 0 1px black;
+  overflow: hidden;
+  max-width: 80rem;
+}
+
+li, p, a, td{
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+thead {
+  font-size: 1.8rem;
+  background-color: #0cd9f0;
+  color: #56b1ed;
+}
+
+th,
+td {
+  border: 1px solid #443C68;
+  min-width: 30rem;
+  padding: 1.5rem;
+  line-height: 1.7;
+}
+
+td {
+  font-size: 1.4rem;
+}
+
+
+
+.dndflow {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+.dndflow aside .description {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 10px;
+ 
+}
+
+.workflow-name {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 6px;
+  font-weight: bolder;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+.workflow-hr,hr{
+  border: none;
+  border-top: 1px solid #0cd9f0;
+  height: 1px;
+
+}
+
+.dndflow aside {
+  border-right: 1px solid #eee;
+  padding: 15px 10px;
+  font-size: 12px;
+  background: #fcfcfc;
+  outline: 1px solid #0cd9f0;
+}
+
+.dndflow aside .description {
+  margin-bottom: 10px;
+  
+}
+
+.dndflow .dndnode {
+  height: 20px;
+  padding: 12px;
+  border: 1px solid #1a192b;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  height: min-content;
+
+} 
+
+.dndflow .reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.dndflow .selectall {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .dndflow {
+    flex-direction: row;
+  }
+
+  .dndflow aside {
+    width: 20%;
+    max-width: 250px;
+  }
+}
+
+.text{
+  color: black;
+  text-decoration: underline;
+}
