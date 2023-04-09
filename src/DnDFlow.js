@@ -73,7 +73,7 @@ const DnDFlow = () => {
 
   return (
     <>
-    <div className="workflow-name bg-dots">Workflow name:{decodeURIComponent(name)}</div>
+    <div className="workflow-name bg-dots">Workflow name: {decodeURIComponent(name)}</div>
     <hr className="workflow-hr"/>
       <div className="dndflow">
         <ReactFlowProvider>
